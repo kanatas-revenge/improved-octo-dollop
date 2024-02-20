@@ -16,4 +16,4 @@ def paint_house(x, y, width, height):
 
 main()
 print("Ты меня видишь?")
-print("Хочу закоммитить")
+print("Хочу закоммитить"
