@@ -1,8 +1,11 @@
-from graphics import *
+from graph import *
 
 
 def main():
+    windowSize(600, 500)
     paint_house(200, 200, 300, 400)
+    run()
+
 
 def paint_house(x, y, width, height):
     """
@@ -10,10 +13,8 @@ def paint_house(x, y, width, height):
     :param x, y: - опорная точка, левая нижняя точка крыши
     :param width: - ширина
     :param height: - высота
-    :return: - возвращает риусуночек домика
+    :return: - возвращает рисуночек домика
     """
     pass
 
 main()
-print("Ты меня видишь?")
-print("Хочу закоммитить")
